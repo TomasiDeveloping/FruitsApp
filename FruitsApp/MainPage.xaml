@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FruitsApp.MainPage"
+             BackgroundColor="{DynamicResource SecondaryColor}">
+
+    <!--<HorizontalStackLayout Margin="20" Padding="20" Spacing="10" BackgroundColor="Blue">
+        <BoxView BackgroundColor="Red" HeightRequest="100" WidthRequest="100"/>
+        <BoxView BackgroundColor="Green" HeightRequest="100" WidthRequest="100"/>
+    </HorizontalStackLayout>-->
+
+    <!--<ScrollView>
+        <VerticalStackLayout Margin="20">
+            <Label Text="Hello World!" FontSize="20" TextColor="Black"/>
+            <Entry Placeholder="Enter User Name" PlaceholderColor="Red" FontSize="Large"/>
+            <Entry Placeholder="Enter User Password" IsPassword="True" PlaceholderColor="Red" FontSize="Large"/>
+            <Image Source="car.jpg"/>
+
+            <Label Text="Hello World!" FontSize="20" TextColor="Black"/>
+            <Entry Placeholder="Enter User Name" PlaceholderColor="Red" FontSize="Large"/>
+            <Entry Placeholder="Enter User Password" IsPassword="True" PlaceholderColor="Red" FontSize="Large"/>
+            <Image Source="car.jpg"/>
+
+            <Label Text="Hello World!" FontSize="20" TextColor="Black"/>
+            <Entry Placeholder="Enter User Name" PlaceholderColor="Red" FontSize="Large"/>
+            <Entry Placeholder="Enter User Password" IsPassword="True" PlaceholderColor="Red" FontSize="Large"/>
+            <Image Source="car.jpg"/>
+        </VerticalStackLayout>
+    </ScrollView>-->
+
+    <FlexLayout JustifyContent="Center" Wrap="Wrap" Direction="Row">
+        <Label Text="1st Label" FontSize="20" BackgroundColor="Pink" />
+        <Label Text="2nd Label" FontSize="20" BackgroundColor="LightCyan" />
+        <Label Text="3rd Label" FontSize="20" BackgroundColor="Beige" />
+        <Label Text="4th Label" FontSize="20" BackgroundColor="HotPink" />
+        <Label Text="5th Label" BackgroundColor="Purple" />
+        <Label Text="6th Label" BackgroundColor="Turquoise" />
+    </FlexLayout>
+    
+</ContentPage>
